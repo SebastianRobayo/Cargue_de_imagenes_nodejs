@@ -8,9 +8,9 @@ app.set("port", process.env.PORT || 5000);
 const dbConfig = {
   host: "localhost",
   port: "3306",
-  user: "sebastian",
-  password: "sebas1033802619",
-  database: "prueba2",
+  user: "XXXXXX",
+  password: "XXXXXX",
+  database: "XXXXXX",
 };
 
 app.use(conn(mysql, dbConfig, "single"));
